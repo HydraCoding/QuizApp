@@ -120,6 +120,7 @@ function buttonEnable() {
 }
 
 function showResult() {
+  document.getElementById("my-card").classList.add("my-end-card");
   if (right_answers == 6) {
     allRight();
   } else if (right_answers >= 3) {
