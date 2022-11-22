@@ -32,7 +32,7 @@ body {
   font-weight: bold !important;
   font-size: 2.5em !important;
   color: #000000bf;
-  margin-right: -18px;
+  margin-right: -36px !important;
 }
 
 .my-card {
@@ -42,9 +42,10 @@ body {
 }
 
 .my-end-card {
-  width: 46vw !important;
+  width: 52vw !important;
   height: 52vh !important;
   margin-top: 3% !important;
+  margin-left: 4%;
 }
 
 .card-head {
@@ -119,9 +120,9 @@ body {
 .steps-position {
   margin-top: 1%;
   position: fixed;
-  right: 46vw;
+  right: 45vw;
   color: white;
-  bottom: 17vw;
+  bottom: 16vw;
 }
 
 .answer_height {
